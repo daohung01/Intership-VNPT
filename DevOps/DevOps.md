@@ -80,7 +80,7 @@ Dưới đây sẽ giới thiệu về những điều cần biết để áp d�
 
 
 
-
+https://viblo.asia/p/tim-hieu-ve-devops-phan-1-ByEZk9Mo5Q0
 
 
 
