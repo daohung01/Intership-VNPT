@@ -1,20 +1,40 @@
 # DevOps là gì?
 
+## I. DevOps là gì?
+
+- DevOps là viết tắt của Development (Dev) và Operations (Ops). DevOps là một văn hóa làm việc kết hợp giữa kỹ sư phát triển phần mềm (dev) với bộ phận operator (kỹ sư hệ thống, nhân viên bảo mật, kỹ sư mạng, kỹ sư hạ tầng,...) nhằm mục đích rút ngắn vòng đời phát triển sản phẩm (SDLC).
+
+Dưới đây sẽ giới thiệu về những điều cần biết để áp dụng DevOps, bao gồm:
 
 
+- DevOps Culture : văn hóa làm việc kết hợp giữa Dev và Ops
+
+- DevOps Practices : cách để thực hiện DevOps
+
+- DevOps Tools : những Tools cần để thực hiện DevOps
+
+- DevOps và Cloud : mối quan hệ giữa DevOps và cloud
+
+## II. DevOps Culture
+
+-  Khi có 1 team DevOps, những mục tiêu đạt đến cụ thể như sau:
 
 
+- Fast time - to market (TTM) : code nhanh, deploy nhanh
 
+- Few production failures : khi sản phẩm được đảm bảo về tính ổn định ngay từ đầu thì lỗi sẽ ít xảy ra hơn
 
+- Immediate recovery from failures: không may nếu xảy ra lỗi, vì chúng ta có 1 team đầy đủ dev và ops nên có thể nhanh chóng nhận định nguyên nhân lỗi là do program hay do cấu trúc hệ thống,... và có thể nhanh chóng giải quyết vấn đề ngay lập tức.
 
+- Trong DevOps culture, cả dev và operations đều phải quan tâm đến tính ổn định và tốc độ của sản phẩm.Vì thế, dev và operations sẽ phải làm việc cùng nhau, sử dụng những tools kiểm tra tốc độ và tính ổn định của sản phẩm, nhờ vậy mà có thể tạo ra những sản phẩm tốt hơn.
 
+- Thử so sánh DevOps với mô hình làm việc truyền thống Traditional Silos, ta thấy như sau:
 
+![image](https://user-images.githubusercontent.com/108709507/177276438-2e7d1fff-08c9-49fb-a923-45ae47f6f700.png)
 
+- Ở mô hình Traditional Silos, dev viết code đưa sang QA test. QA phát hiện ra bug sẽ đưa cho dev fix, rồi chuyển lại cho QA để test. Quá trình này lặp đi lặp lại cho đến khi sản phẩm không còn bug, thì sẽ chuyển giao cho operation để deploy code lên môi trường. Lúc này, QA sẽ test lại lần nữa. Lúc này, nếu phát sinh ra bug thì nguyên nhân có thể là do code của dev viết sai hoặc do operation deploy sai. Với mô hình làm việc truyền thống, cách làm việc của mỗi team dev và operations như một “black-box”, không tin tưởng lẫn nhau, vì vậy việc tìm kiếm nguyên nhân lỗi sẽ mất thời gian hơn.
 
-
-
-
-
+- Tuy nhiên, với DevOps, dev QA và operations là 1 team thống nhất cùng làm 1 sản phẩm, họ sẽ sử dụng các tools như Jenkins, docker,... để tạo ra một hệ thống automation từ khi build code, test đến khi deploy. Nếu xảy ra bug họ có thể nhanh chóng revert lại version cũ, cùng nhau tìm hiểu nguyên nhân, fix bug rồi deploy code mới lên lại.
 
 
 
